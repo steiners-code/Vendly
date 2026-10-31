@@ -101,13 +101,13 @@ export default async function RootLayout({
     const themeStyle = generateThemeStyle(primary) as React.CSSProperties;
 
     return (
-        <body className="app-container" style={themeStyle}>
+        <main className="app-container" style={themeStyle}>
             <PromoBar store={store} />
             <Header store={store} />
             {children}
             <Footer store={store} />
 
             <JsonLd store={store} />
-        </body>
+        </main>
     );
 }

@@ -404,3 +404,11 @@
     padding-block: 15px;
   }
 }
+
+
+.nf-copy .sub {
+  color: var(--muted, #51434a);
+  font-size: 18px;
+  max-width: 42ch;
+  margin-top: 16px;
+}
