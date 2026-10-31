@@ -114,6 +114,406 @@ export const STORES = {
       },
     ],
   },
+  "sufteez": {
+    slug: "sufteez",
+    logo: "/demo/images/sufteez/favicon.jpeg",
+    name: "SUFTEEZ",
+    tagline: "Bold Designs That Speak",
+    about: "SUFTEEZ is where culture meets street fashion. Each piece tells a story through intricate designs and bold statements.",
+    story: "Born from the streets, inspired by heritage. SUFTEEZ represents the fearless spirit of modern expression fused with timeless cultural motifs.",
+    city: "Pakistan",
+    currency: "Rs.",
+    theme: {
+      primary: "#5a2e15"
+    },
+    contact: {
+      type: "instagram",
+      value: "sufteez"
+    },
+    socials: {
+      email: "sufteez@gmail.com",
+      instagram: "https://www.instagram.com/sufteez/",
+      tiktok: "https://vm.tiktok.com/ZS9M4uMaXsH6v-67cAu/"
+    },
+    sizes: ['M', 'L', 'XL'],
+    upcomingProducts: [
+      {
+        id: 'hoodie-teaser',
+        name: 'Heritage Hoodies',
+        comingSoon: true,
+        season: 'Winter 2026',
+        description: 'Same bold motifs, built for the cold. Dropping this winter.'
+      }
+    ],
+    plan: {
+      maxProducts: 50,
+      maxImagesPerProduct: 4,
+      showPromo: true,
+      showWatermark: true
+    },
+    products: [
+      {
+        id: 1,
+        name: 'HULM',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        image: '/demo/images/sufteez/p1-image1.jpeg',
+        images: ['/demo/images/sufteez/p1-image1.jpeg'],
+        description: 'Bold cultural street tee.'
+      },
+      {
+        id: 2,
+        name: 'LUFFY',
+        price: 1899,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        image: '/demo/images/sufteez/p2-image1.jpeg',
+        images: ['/demo/images/sufteez/p2-image1.jpeg'],
+        description: 'Bold cultural street tee.'
+      },
+      {
+        id: 3,
+        name: 'SUFTEEZ SPECIAL',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        image: '/demo/images/sufteez/p3-image1.jpeg',
+        images: ['/demo/images/sufteez/p3-image1.jpeg'],
+        description: 'Signature Sufteez special edition tee.'
+      },
+      {
+        id: 4,
+        name: 'STAR GIRL',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        image: '/demo/images/sufteez/p4-image1.jpeg',
+        images: ['/demo/images/sufteez/p4-image1.jpeg'],
+        description: 'Bold graphic print tee.'
+      },
+      {
+        id: 5,
+        name: 'PORCHE-911',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['White', 'Black', 'Beige'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p5-image1.jpeg',
+        ],
+        description: 'Porsche-911 automotive inspired street tee.'
+      },
+      {
+        id: 6,
+        name: 'MEDUSA',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['Black', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p6-image1.jpeg',
+        ],
+        description: 'Intricate mythological motif street tee.'
+      },
+      {
+        id: 7,
+        name: 'STAY-TRUE',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['Black', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p7-image1.jpeg',
+        ],
+        description: 'Stay True statement street tee.'
+      },
+      {
+        id: 8,
+        name: 'COUPLE',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['Black', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p8-image1.jpeg',
+        ],
+        description: 'Couple graphic street tee.'
+      },
+      {
+        id: 9,
+        name: 'DAISY',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['Black', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p9-image1.jpeg',
+        ],
+        description: 'Floral aesthetic street tee.'
+      },
+      {
+        id: 10,
+        name: 'FEARLESS',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['Black', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p10-image1.jpeg',
+        ],
+        description: 'Fearless statement graphic tee.'
+      },
+      {
+        id: 11,
+        name: 'YOURSELF',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p11-image1.jpeg'],
+        description: 'Be Yourself bold typography tee.'
+      },
+      {
+        id: 12,
+        name: 'SRK',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: ['Black', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p12-image1.jpeg',
+        ],
+        description: 'SRK pop culture tribute tee.'
+      },
+      {
+        id: 13,
+        name: 'BILLIE EILISH',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: ['Red', 'Blue'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p13-image1.jpeg',
+          '/demo/images/sufteez/p13-image2.jpeg'
+        ],
+        description: 'Billie Eilish music culture tee.'
+      },
+      {
+        id: 14,
+        name: 'CHICAGO-23',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p14-image1.jpeg'],
+        description: 'Chicago 23 sports culture street tee.'
+      },
+      {
+        id: 15,
+        name: 'MARLBORO-F1',
+        price: 1899,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p15-image1.jpeg'],
+        description: 'Vintage racing heritage tee.'
+      },
+      {
+        id: 16,
+        name: 'SABAR',
+        price: 1899,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p16-image1.jpeg'],
+        description: 'Sabar Urdu calligraphy street tee.'
+      },
+      {
+        id: 18,
+        name: 'BOL-KE-LAB-AZAAD-HEN-TERE',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p18-image1.jpeg'],
+        description: 'Faiz poetry inspired statement tee.'
+      },
+      {
+        id: 19,
+        name: 'TRUST-WHAT-YOU-FEEL',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p19-image1.jpeg'],
+        description: 'Trust What You Feel graphic tee.'
+      },
+      {
+        id: 20,
+        name: 'SAN FRANCISCO',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p20-image1.jpeg'],
+        description: 'San Francisco city aesthetic tee.'
+      },
+      {
+        id: 21,
+        name: 'AESTHETIC',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p21-image1.jpeg'],
+        description: 'Minimal aesthetic graphic tee.'
+      },
+      {
+        id: 22,
+        name: 'ZENIN',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p22-image1.jpeg'],
+        description: 'Anime culture inspired street tee.'
+      },
+      {
+        id: 23,
+        name: 'BARHI-MANZILON-KE-MUSAFIR-CHHOTA-DIL-NAHI-RAKHTAY',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p23-image1.jpeg'],
+        description: 'Poetic motivational Urdu statement tee.'
+      },
+      {
+        id: 24,
+        name: 'TRAP STAR',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: ['Red', 'Green'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p24-image1.jpeg',
+          '/demo/images/sufteez/p24-image2.jpeg'
+        ],
+        description: 'Trap Star urban street tee.'
+      },
+      {
+        id: 25,
+        name: 'JUVENTUS',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p25-image1.jpeg'],
+        description: 'Football culture inspired graphic tee.'
+      },
+      {
+        id: 26,
+        name: 'PORCHE-911-GT3RS BACK',
+        price: 2299,
+        category: 'T-Shirts',
+        colors: ['Beige', 'White'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p26-image1.jpeg',
+          '/demo/images/sufteez/p26-image2.jpeg'
+        ],
+        description: 'Porsche GT3RS back print street tee.'
+      },
+      {
+        id: 27,
+        name: 'BS Beige',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p27-image1.jpeg'],
+        description: 'Beige neutral aesthetic tee.'
+      },
+      {
+        id: 28,
+        name: 'Fein',
+        price: 1999,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        image: '/demo/images/sufteez/p28-image1.jpeg',
+        images: ['/demo/images/sufteez/p28-image1.jpeg'],
+        description: 'Fein hip hop culture graphic tee.'
+      },
+      {
+        id: 29,
+        name: 'Travis Scott Utopia',
+        price: 1999,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p29-image1.jpeg'],
+        description: 'Utopia Travis Scott graphic tee.'
+      },
+      {
+        id: 30,
+        name: 'Spider Man',
+        price: 1999,
+        category: 'T-Shirts',
+        colors: ['Beige', 'Red'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p30-image1.jpeg',
+          '/demo/images/sufteez/p30-image2.jpeg'
+        ],
+        description: 'Spider-Man comic culture tee.'
+      },
+      {
+        id: 31,
+        name: 'Lifting Dept.',
+        price: 2199,
+        category: 'T-Shirts',
+        colors: null,
+        sizes: ['M', 'L', 'XL'],
+        images: ['/demo/images/sufteez/p31-image1.jpeg'],
+        description: 'Lifting Dept gym and streetwear oversized tee.'
+      },
+      {
+        id: 32,
+        name: 'Trousers',
+        price: 1999,
+        category: 'Trousers',
+        colors: ['Brown', 'Front', 'Back'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p32-image1.WEBP',
+          '/demo/images/sufteez/p32-image2.WEBP',
+          '/demo/images/sufteez/p32-image3.WEBP'
+        ],
+        description: 'Relaxed fit comfortable street trousers.'
+      },
+      {
+        id: 33,
+        name: 'Hoodie',
+        price: 2499,
+        category: 'Hoodies',
+        colors: ['Sky Front', 'Sky Back', 'Brown Front', 'Brown Back'],
+        sizes: ['M', 'L', 'XL'],
+        images: [
+          '/demo/images/sufteez/p33-image1.PNG',
+          '/demo/images/sufteez/p33-image2.WEBP',
+          '/demo/images/sufteez/p33-image3.PNG',
+          '/demo/images/sufteez/p33-image4.WEBP'
+        ],
+        description: 'Premium heavyweight streetwear hoodie.'
+      }
+    ]
+  },
   "noor-atelier": {
     slug: "noor-atelier",
     logo: "",

@@ -1,4 +1,5 @@
 import { contactLink, contactLabel } from '@/utils/helpers'
+import Image from 'next/image';
 
 export function Header({ store }) {
   const cLabel = contactLabel(store);
@@ -7,7 +8,17 @@ export function Header({ store }) {
   return (
     <header>
       <div className="wrap bar">
-        <a className="logo" href="#top">
+        <a className="logo flex items-center gap-2 justify-start" href="#top">
+          {store.logo && (
+            <Image
+              width={48}
+              height={48}
+              alt={store.logo}
+              src={store.logo}
+              className='w-full h-full aspect-square object-cover'
+            />
+          )}
+
           {store.name}
         </a>
         <nav>
