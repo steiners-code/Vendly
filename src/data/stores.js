@@ -634,7 +634,7 @@ export const STORES = {
   },
   "fpl": {
     slug: "fpl",
-    logo: "",
+    logo: "/demo/images/logo.jpg",
     name: "FPL",
     tagline: "Pakistani Fashion: Pret, Bridal & Luxury Wear",
     about: "Fashion Pakistan Lounge, A Multi-Designer Fashion Store, Since 2010",
