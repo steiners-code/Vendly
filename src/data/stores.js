@@ -159,7 +159,6 @@ export const STORES = {
         category: 'T-Shirts',
         colors: null,
         sizes: ['M', 'L', 'XL'],
-        image: '/demo/images/sufteez/p1-image1.jpeg',
         images: ['/demo/images/sufteez/p1-image1.jpeg'],
         description: 'Bold cultural street tee.'
       },
@@ -170,7 +169,6 @@ export const STORES = {
         category: 'T-Shirts',
         colors: null,
         sizes: ['M', 'L', 'XL'],
-        image: '/demo/images/sufteez/p2-image1.jpeg',
         images: ['/demo/images/sufteez/p2-image1.jpeg'],
         description: 'Bold cultural street tee.'
       },
@@ -181,7 +179,6 @@ export const STORES = {
         category: 'T-Shirts',
         colors: null,
         sizes: ['M', 'L', 'XL'],
-        image: '/demo/images/sufteez/p3-image1.jpeg',
         images: ['/demo/images/sufteez/p3-image1.jpeg'],
         description: 'Signature Sufteez special edition tee.'
       },
@@ -192,7 +189,6 @@ export const STORES = {
         category: 'T-Shirts',
         colors: null,
         sizes: ['M', 'L', 'XL'],
-        image: '/demo/images/sufteez/p4-image1.jpeg',
         images: ['/demo/images/sufteez/p4-image1.jpeg'],
         description: 'Bold graphic print tee.'
       },
@@ -425,7 +421,6 @@ export const STORES = {
         sizes: ['M', 'L', 'XL'],
         images: [
           '/demo/images/sufteez/p26-image1.jpeg',
-          '/demo/images/sufteez/p26-image2.jpeg'
         ],
         description: 'Porsche GT3RS back print street tee.'
       },
@@ -446,7 +441,6 @@ export const STORES = {
         category: 'T-Shirts',
         colors: null,
         sizes: ['M', 'L', 'XL'],
-        image: '/demo/images/sufteez/p28-image1.jpeg',
         images: ['/demo/images/sufteez/p28-image1.jpeg'],
         description: 'Fein hip hop culture graphic tee.'
       },
@@ -636,6 +630,133 @@ export const STORES = {
         ],
         description: "Warm wool shawl with tonal embroidery along the border."
       }
+    ]
+  },
+  "fpl": {
+    slug: "fpl",
+    logo: "",
+    name: "FPL",
+    tagline: "Pakistani Fashion: Pret, Bridal & Luxury Wear",
+    about: "Fashion Pakistan Lounge, A Multi-Designer Fashion Store, Since 2010",
+    city: "Lahore, Pakistan",
+    currency: "Rs.",
+    theme: {
+      primary: "#010101"
+    },
+    contact: {
+      type: "whatsapp",
+      value: "924235762884"
+    },
+    plan: {
+      maxProducts: 10,
+      maxImagesPerProduct: 4,
+      showPromo: true,
+      showWatermark: true
+    },
+    products: [
+      {
+        id: 1,
+        name: "Panache",
+        price: 5999,
+        compareAt: 7999,
+        category: "Pret",
+        images: [
+          "/demo/images/fpl/p1-image1.jpg"
+        ],
+        description: "Available at FPL Centaurus Mall"
+      },
+      {
+        id: 2,
+        name: "Rashna Nasar",
+        price: 15999,
+        compareAt: 17999,
+        category: "Bridal",
+        images: [
+          "/demo/images/fpl/p2-image1.jpg",
+          "/demo/images/fpl/p2-image2.jpg",
+          "/demo/images/fpl/p2-image3.jpg",
+          "/demo/images/fpl/p2-image4.jpg",
+        ],
+        description: "A classic narrative shaped in heritage craft and timeless design. Khazeena is a masterpiece. Raw silk pishwas features richly embroidered front & back with intricate adda & sequins work. The look is completed by an embroidered organza dupatta featuring four sided borders for an elegant drape."
+      },
+      {
+        id: 3,
+        name: "Taleen",
+        price: 7999,
+        compareAt: 9999,
+        category: "Luxury Wear",
+        images: [
+          "/demo/images/fpl/p3-image1.jpg",
+          "/demo/images/fpl/p3-image2.jpg",
+          "/demo/images/fpl/p3-image3.jpg"
+        ],
+        description: "A graceful silk ensemble crafted for effortless sophistication. The flowing silhouette is adorned with delicately embroidered floral detailing across the neckline and sleeves, finished with handcrafted tassels that lend a touch of artisanal charm. Designed in a soft neutral hue, this piece embodies timeless elegance with a modern sense of ease."
+      },
+      {
+        id: 4,
+        name: "Zabric official",
+        price: 9999,
+        category: "Luxury Wear",
+        images: [
+          "/demo/images/fpl/p4-image1.jpg",
+          "/demo/images/fpl/p4-image2.jpg",
+          "/demo/images/fpl/p4-image3.jpg"
+        ],
+        description: "Chloe where intricate craftsmanship meets effortless movement. A hand-embellished jacket, finished with playful tassels, falls over fluid ombré separates in the softest champagne-to-blue palette."
+      },
+      {
+        id: 5,
+        name: "House of Nawab",
+        price: 9999,
+        category: "Pret",
+        images: [
+          "/demo/images/fpl/p5-image1.jpg",
+          "/demo/images/fpl/p5-image2.jpg"
+        ],
+        description: "Available at FPL Giga Boutique store"
+      },
+      {
+        id: 6,
+        name: "LAVENDER",
+        price: 7999,
+        category: "Luxury Wear",
+        images: [
+          "/demo/images/fpl/p6-image1.jpg",
+          "/demo/images/fpl/p6-image2.jpg",
+          "/demo/images/fpl/p6-image3.jpg",
+          "/demo/images/fpl/p6-image4.jpg"
+        ],
+        description: "Designed in a soft lavender palette, this statement ensemble features a pure organza cape paired with a pure charmeuse silk blouse and draped skirt for an effortlessly fluid silhouette. Intricate hand aari embroidery enriched with delicate dabka work adorns the front and back neckline, highlighted with subtle pastel green and pink accents for added depth. A graceful fusion of contemporary drape and timeless handwork."
+      },
+      {
+        id: 7,
+        name: "Essor",
+        price: 5999,
+        compareAt: 7999,
+        category: "Pret",
+        images: [
+          "/demo/images/fpl/p7-image1.jpg",
+          "/demo/images/fpl/p7-image2.jpg",
+          "/demo/images/fpl/p7-image3.jpg",
+          "/demo/images/fpl/p7-image4.jpg"
+        ],
+        description: "Available at FPL Dolmen Mall Lahore"
+      },
+      {
+        id: 8,
+        name: "Saleha Kashif",
+        price: 6999,
+        compareAt: 7999,
+        category: "Pret",
+        images: [
+          "/demo/images/fpl/p8-image1.jpg",
+          "/demo/images/fpl/p8-image2.jpg",
+          "/demo/images/fpl/p8-image3.jpg",
+          "/demo/images/fpl/p8-image5.jpg",
+          "/demo/images/fpl/p8-image4.jpg"
+        ],
+        description: "This ivory straight-cut shirt features intricate embroidered detailing along the neckline and sleeves, lending a subtle yet striking charm to its clean silhouette. Paired with delicately finished wide-leg trousers and complemented by a contrasting dupatta with rich tonal accents in chamouse and organza."
+      },
     ]
   },
   "template-store": {
